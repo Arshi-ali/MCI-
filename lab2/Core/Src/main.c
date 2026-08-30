@@ -144,9 +144,7 @@ int main(void)
     // int lhs = (a + b)*(a + b);
     // int rhs = (a*a) + (2*a*b) + (b*b);
     
-    // ---->> Task 2 end
-
-    // ---->> Task 3 
+    
 
     // HAL_Delay(50);
     // myPrintf("value of lhs  %d\r\n", lhs);
@@ -161,11 +159,23 @@ int main(void)
     //     HAL_Delay(50);
     // }
 
-    // ---->> Task 3 end
+    // ---->> Task 2 end
     
+    // ---->> TASK 3
+    // char message[] = "Microcontrollers";
+    // int key = 10339;
+    // myPrintf(fmt: "Original string %s \r\n", message);
+    // for (int i = 0; message[i] != '\0'; i++) {
+    //     message[i] = message[i] + (key % 256);
+    // }
+    // myPrintf(fmt: "Encrypted string %s \r\n", message);
+    // for (int i = 0; message[i] != '\0'; i++) {
+    //     message[i] = message[i] - (key % 256);
+    // }
+    // myPrintf(fmt: "Decrypted string %s \r\n", message);
 
-
-
+    // ---->> Task 3 end
+ 
   /* USER CODE END 2 */
 
 
