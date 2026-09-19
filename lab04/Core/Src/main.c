@@ -208,16 +208,20 @@ int main(void)
   //   HAL_Delay(1000); 
   // ------>> Task 1 end
   
-  // task 4
+  
   
 
 
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-   printf("Frequency: %.2f Hz\r\n", frequency);
-   printf("Period: %lu us\r\n", period);
-  }
+
+  // task 4
+   
+  printf("Frequency: %.2f Hz\r\n", frequency);
+  printf("Period: %lu us\r\n", period);
+  
+}
   /* USER CODE END 3 */
 }
 
