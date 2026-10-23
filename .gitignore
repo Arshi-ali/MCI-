@@ -1,3 +1,52 @@
 build
 mx.scratch
-!.settings
+!.settings# ==============================
+# Python virtual environments
+# ==============================
+.venv/
+venv/
+__pycache__/
+*.pyc
+# ==============================
+# IDE and editor files
+# ==============================
+.settings/
+.vscode/
+.idea/
+.metadata/
+*.log
+# ==============================
+# STM32 build outputs
+# ==============================
+Debug/
+Release/
+build/
+Build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+# ==============================
+# Compiler generated files
+# ==============================
+*.o
+*.obj
+*.elf
+*.map
+*.lst
+*.su
+*.gcda
+*.gcno
+# ==============================
+# Generated firmware binaries
+# ==============================
+*.hex
+*.bin
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
