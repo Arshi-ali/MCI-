@@ -1,35 +1,38 @@
-build
-mx.scratch
-!.settings# ==============================
+
+# ==========================================
+# STM32 MCI Labs - Git Ignore
+# ==========================================
+
 # Python virtual environments
-# ==============================
 .venv/
 venv/
 __pycache__/
 *.pyc
-# ==============================
-# IDE and editor files
-# ==============================
+
+# IDE and editor generated settings
 .settings/
 .vscode/
 .idea/
 .metadata/
-*.log
-# ==============================
-# STM32 build outputs
-# ==============================
-Debug/
-Release/
+mx.scratch
+
+# STM32 generated vendor libraries
+Drivers/
+
+# Build directories
 build/
 Build/
+Debug/
+Release/
 cmake-build-*/
+
+# CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
 compile_commands.json
-# ==============================
+
 # Compiler generated files
-# ==============================
 *.o
 *.obj
 *.elf
@@ -38,15 +41,18 @@ compile_commands.json
 *.su
 *.gcda
 *.gcno
-# ==============================
-# Generated firmware binaries
-# ==============================
+*.d
+
+# Firmware output binaries
 *.hex
 *.bin
-# ==============================
+
 # Temporary files
-# ==============================
+*.log
 *.tmp
 *.bak
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
+
